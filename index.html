@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Your fortune</h2>
+      </div>
+      <form id="fortune-survey">
+      <div class="form-group">
+        <p>What good things happened to you recently, check below:</p>
+        <input type="checkbox" name="fortune-good" value="dog"> Saw a dog <br>
+        <input type="checkbox" name="fortune-good" value="dragon"> Petted a dragon <br>
+        <input type="checkbox" name="fortune-good" value="clover"> Found 4 leaf clover <br>
+        <input type="checkbox" name="fortune-good" value="penny"> Find a penny <br>
+        <input type="checkbox" name="fortune-good" value="nodisease"> Did not get sick from co-workers or of them <br>
+      </div>
+      <div class="form-group">
+        <p>What bad things happened to you recently, check below:</p>
+        <input type="checkbox" name="fortune-bad" value="mirror">Broke a mirror<br>
+        <input type="checkbox" name="fortune-bad" value="ladder">Walked under a ladder.<br>
+        <input type="checkbox" name="fortune-bad" value="unicorn">Killed a unicorn.<br>
+        <input type="checkbox" name="fortune-bad" value="salt">Spilled salt.<br>
+        <input type="checkbox" name="fortune-bad" value="horseshoe">Knocked over horseshoe.<br>
+        <button type="submit" >Submit me!</button>
+      </div>
+      </form>
+      <span id="good">You have good things in your future due to your encounter with : <br> </span>
+      <span id="bad"><b>You will have terrible stuff happen to you</b></span>
+    </div>
+  </body>
+</html>
